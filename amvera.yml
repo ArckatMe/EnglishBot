@@ -1,0 +1,13 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.11
+build:
+  requirementsPath: "C:\\Users\\\u0415\u0432\u0433\u0435\u043D\u0438\u0439\\PycharmProjects\\\
+    pythonProject2\\requirements.txt"
+run:
+  scriptName: "C:\\Users\\\u0415\u0432\u0433\u0435\u043D\u0438\u0439\\PycharmProjects\\\
+    pythonProject2\\main.py"
+  persistenceMount: /data
+  containerPort: 80
